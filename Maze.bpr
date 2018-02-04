@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="Maze.exe"/>
+    <OBJFILES value="Maze.obj Form_maze.obj People_for_maze.obj Maze_Utility.obj"/>
+    <RESFILES value="Maze.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Form_maze.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx50.lib bcbsmp50.lib vcl50.lib"/>
+    <SPARELIBS value="vcl50.lib bcbsmp50.lib vclx50.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi vcljpg50.bpi vclmid50.bpi vcldb50.bpi vclbde50.bpi 
+      bcbsmp50.bpi ibsmp50.bpi vcldbx50.bpi qrpt50.bpi teeui50.bpi teedb50.bpi 
+      tee50.bpi dss50.bpi nmfast50.bpi inetdb50.bpi inet50.bpi dclocx50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB"/>
+    <MAINSOURCE value="Maze.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl;."/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -I. -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\BORLAND\CBUILD~1\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 
+      -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=5
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1028
+CodePage=950
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.5
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=Written by 楊宗豪
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=$(BCB)\include;$(BCB)\include\vcl;.
+Item1=..\..\Program Files\Borland\CBuilder4\Projects;..\3DMaze;..\..\temp;..\Program Files\Borland\CBuilder4\Projects;..\My Documents;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\Program Files\Borland\CBuilder4\Projects;..\My Documents;$(BCB)\include;$(BCB)\include\vcl
+Item3=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\Program Files\Borland\CBuilder4\Projects;..\3DMaze;..\..\temp;..\Program Files\Borland\CBuilder4\Projects;..\My Documents;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\Program Files\Borland\CBuilder4\Projects;..\My Documents;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=D:\My Documents\BCB\Maze
+Item1=c:\cpp\maze
+Item2=c:\file
+
+[HistoryLists\hlFinalOutputDir]
+Count=4
+Item0=D:\My Documents\BCB\Maze\
+Item1=D:\My Documents\BCB\Maze
+Item2=c:\cpp\maze
+Item3=c:\file
+
+[HistoryLists\hIBPIOutputDir]
+Count=7
+Item0=D:\My Documents\BCB\Maze\
+Item1=D:\My Documents\BCB\Maze
+Item2=c:\cpp\maze\
+Item3=c:\cpp\maze
+Item4=c:\fileItem1=c:\fileItem1=c:\file
+Item5=
+Item6=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
